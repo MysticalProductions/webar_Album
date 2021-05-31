@@ -18,12 +18,12 @@
         <source src="https://avo-content-dev.s3.amazonaws.com/videos/bg_1588085276090.mp4" type='video/mp4'>
     </video>
 
-    <script src="js/third_party/three.js/three.min.js"></script>
-    <script src="js/ARnftThreejs.js"></script>
-    <script src="../dist/ARnft.js"></script>
+    <script src="https://raw.githack.com/webarkit/ARnft/master/examples/js/third_party/three.js/three.min.js"></script>
+    <script src="https://raw.githack.com/webarkit/ARnft/master/examples/js/ARnftThreejs.js"></script>
+    <script src="https://raw.githack.com/webarkit/ARnft/master/dist/ARnft.js"></script>
 
     <script>
-        ARnft.ARnft.init(640, 480, "examples/DataNFT/pinball", 'config.json', true)
+        ARnft.ARnft.init(640, 480, "DataNFT/pinball", 'config.json', true)
             .then((nft) => {
                 let root = new THREE.Object3D();
                 root.matrixAutoUpdate = false;
