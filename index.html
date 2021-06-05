@@ -6,12 +6,12 @@
   </head>
   <body>
     <script>
-    window.onload = function() {
+    /*window.onload = function() {
         AFRAME.registerComponent('videohandler', {
             init: function () {
                 var marker = this.el;
 
-                this.vid = document.querySelector("#demo");
+                this.vid = document.querySelector("#paintandquest-video-link");
 
                 marker.addEventListener('markerFound', function () {
                     this.vid.play();
@@ -23,7 +23,8 @@
         }.bind(this));
             }
         });
-    };
+    };*/
+
        paintandquest-preview-button.addEventListener('click', () => {
               paintandquest-preview-button.setAttribute("visible", false);
               const testVideo = document.createElement( "video" );
